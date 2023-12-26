@@ -2,9 +2,11 @@ body{
     background-color: lightskyblue
 }
 h1{
-    font-family: 'Oswald', sans-serif;
     background-color: aquamarine;
     color:blue
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
 }
 #show_sketch{
     float: right;
@@ -27,4 +29,27 @@ p{
 }
 #sketch_to_be_drawn{
     color: blue;
+}
+p
+{
+    font-size: large;
+    font-weight: 750;
+}
+canvas
+{
+    margin-top: 80px;
+    border:5px;
+    border-radius:15px; 
+    animation-name:Venom;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+@keyframes Venom
+{
+    from{
+box-shadow: 2px 2px 50px purple;
+    }
+    to{
+    box-shadow: 2px 2px 50px blue;
+    }
 }
